@@ -37,5 +37,5 @@ const refs = {
 refs.gallery.addEventListener('click', onImageClick)
 
 function onImageClick(event) {
-    console.log('event.target');
+    console.log(event.target);
 }
